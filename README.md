@@ -91,6 +91,8 @@ Monitoring AWS account activity can provide valuable insight into who is accessi
 
 #  AWS Landing Zone
 
+[Level 400: AWS Landing Zone](AWS-Landing-Zone)
+
 #  How can I save time setting up a multi-account AWS environment?
 
 AWS Landing Zone is a solution that helps customers more quickly set up a secure, multi-account AWS environment based on AWS best practices. With the large number of design choices, setting up a multi-account environment can take a significant amount of time, involve the configuration of multiple accounts and services, and require a deep understanding of AWS services.

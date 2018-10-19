@@ -11,13 +11,12 @@ This solution can help save time by automating the set-up of an environment for 
 
 The AWS Landing Zone solution deploys an AWS Account Vending Machine (AVM) product for provisioning and automatically configuring new accounts. The AVM leverages [AWS Single Sign-On][46] (SSO) for managing user account access. This environment is customizable to allow customers to implement their own account baselines through a Landing Zone configuration and update pipeline.  
 
-[
 
-Watch the AWS Landing Zone Webinar 
 
 ![webinar-icon1][47]
 
-][48]
+[Watch the AWS Landing Zone Webinar][48]
+
 
 #### Request more information about AWS Landing Zone
 
