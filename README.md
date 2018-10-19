@@ -29,8 +29,8 @@ Lab7 - S3
 Lab8 - Codepipeline
 Lab9 - Cloudformation
 
-#  [Account Management] 
-[45]
+#  Account Management
+
 [Source](https://aws.amazon.com/answers/account-management/ "Permalink to Account Management – AWS Answers")
 
 
