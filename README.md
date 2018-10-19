@@ -29,16 +29,9 @@ Lab7 - S3
 Lab8 - Codepipeline
 Lab9 - Cloudformation
 
+#  Account Management [45]
 [Source](https://aws.amazon.com/answers/account-management/ "Permalink to Account Management – AWS Answers")
 
-# Account Management – AWS Answers
-
-
-####  [ AWS Answers][45]
-
-#  Account Management
-
-![AWS Cloud][46]
 
 ###  Prescriptive guidance and best practices to help you set up and manage your AWS accounts
 
