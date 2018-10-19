@@ -1,51 +1,26 @@
-# AWS Workshop
+# AWS Well-Architected Security Labs
 
 ## Introduction
+This repository contains documentation and code in the format of hands-on labs to help you learn, measure, and build using architectural best practices. The labs are categorized into levels, where 100 is introductory, 200/300 is intermediate and 400 is advanced.
 
-This repository contains documentation and code in the format of hands-on labs to help you learn, measure, and build using architectural best practices.
-
-## Prerequisites:
-An [AWS account](https://portal.aws.amazon.com/gp/aws/developer/registration/index.html) that you are able to use for testing, that is not used for production or other purposes. 
-NOTE: You will be billed for any applicable AWS resources used if you complete this lab that are not covered in the [AWS Free Tier](https://aws.amazon.com/free/).
-
-## Before Labs Go over Basics of These AWS Services
-
-
-
-## AWS Devops Essentials Training
-Please Check AWSDevopsEssentials.md
+For more information about security on AWS visit [AWS Security](https://aws.amazon.com/security/) and read the [AWS Well-Architected Security whitepaper](https://d1.awsstatic.com/whitepapers/architecture/AWS-Security-Pillar.pdf).
 
 ## Labs:
-The labs are structured around the AWS services. 
-Please start your lab from Lab1.1
-
-#Lab1 - IAM
-
-#Lab2 - VPC
-
-#Lab3 - Elastic Beanstalk
-
-#Lab4 - Cloudfront
-
-#Lab5 - DynamoDB
-
-#Lab6 - RDS
-
-#Lab7 - S3
-
-#Lab8 - Codepipeline
-
-#Lab9 - Cloudformation
+* [Level 100: AWS Account & Root User](100%20-%20AWS%20Account%20%26%20Root%20User)
+* [Level 100: Basic Identity & Access Management User, Group, Role](100%20-%20Basic%20Identity%20%26%20Access%20Management%20User%2C%20Group%2C%20Role)
+* [Level 200: Automated Deployment of Detective Controls](200%20-%20Automated%20Deployment%20of%20Detective%20Controls)
+* [Level 200: Automated Deployment of IAM Groups and Roles](200%20-%20Automated%20Deployment%20of%20IAM%20Groups%20and%20Roles)
+* [Level 200: Basic EC2 with WAF Protection](200%20-%20Basic%20EC2%20with%20WAF%20Protection)
+* [Level 200: CloudFront with WAF Protection](200%20-%20CloudFront%20with%20WAF%20Protection)
+* [Level 300: Arc325 Managing Multiple Accounts at Scale](arc325-multiple-accounts-workshop)
+* [Level 400: AWS Landing Zone](AWS-Landing-Zone)
 
 
-
-
-********
-#  Account Management
+# Account Management
 
 [Source](https://aws.amazon.com/answers/account-management/ "Permalink to Account Management – AWS Answers")
 
-
+Lab [Level 300: Arc325 Managing Multiple Accounts at Scale](arc325-multiple-accounts-workshop)
 ###  Prescriptive guidance and best practices to help you set up and manage your AWS accounts
 
 ###  [ How should I manage multiple AWS accounts for billing purposes?][47]
@@ -110,3 +85,55 @@ Monitoring AWS account activity can provide valuable insight into who is accessi
 [53]: https://aws.amazon.com/answers/account-management/workspaces-cost-optimizer/
 [54]: https://aws.amazon.com/answers/account-management/real-time-insights-account-activity/
 [55]: https://docs.aws.amazon.com/forms/aws-doc-feedback?hidden_service_name=AWS%20Solutions&hidden_guide_name=Answers&hidden_file_name=account%20management%20landing%20page
+
+
+***
+
+#  AWS Landing Zone
+
+#  How can I save time setting up a multi-account AWS environment?
+
+AWS Landing Zone is a solution that helps customers more quickly set up a secure, multi-account AWS environment based on AWS best practices. With the large number of design choices, setting up a multi-account environment can take a significant amount of time, involve the configuration of multiple accounts and services, and require a deep understanding of AWS services.
+
+This solution can help save time by automating the set-up of an environment for running secure and scalable workloads while implementing an initial security baseline through the creation of core accounts and resources. It also provides a baseline environment to get started with a multi-account architecture, identity and access management, governance, data security, network design, and logging.
+
+The AWS Landing Zone solution deploys an AWS Account Vending Machine (AVM) product for provisioning and automatically configuring new accounts. The AVM leverages AWS Single Sign-On (SSO) for managing user account access. This environment is customizable to allow customers to implement their own account baselines through a Landing Zone configuration and update pipeline.  
+
+[Watch the AWS Landing Zone Webinar][56]
+
+#### Request more information about AWS Landing Zone
+
+[Contact AWS][57]
+
+This solution is delivered by AWS Solutions Architects or Professional Services consultants to create a customized baseline of AWS accounts, networks, and security policies. You can request more information on the AWS Landing Zone solution by filling out the signup form.  
+
+* Multi-Account Structure
+* Account Vending Machine
+* User Access
+* Security Baseline
+* Notifications
+* #### Multi-Account Structure __
+
+ 
+
+The AWS Landing Zone solution includes four accounts:   
+
+![landing-zone-implementation-architecture][58]
+
+
+
+[56]: https://pages.awscloud.com/Launch-AWS-Faster-using-Automated-Landing-Zones_0606-ENT_OD.html
+[57]: https://pages.awscloud.com/AWS-Landing-Zone-Contact-Us.html
+[58]: https://d1.awsstatic.com/aws-answers/answers-images/landing-zone-implementation-architecture.6bfa23d88aef1ce97035d0333f476898739697b9.png "landing-zone-implementation-architecture"
+
+
+## License
+Licensed under the Apache 2.0 and MITnoAttr License. 
+
+Copyright 2018 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+Licensed under the Apache License, Version 2.0 (the "License"). You may not use this file except in compliance with the License. A copy of the License is located at
+
+    http://aws.amazon.com/apache2.0/
+
+or in the "license" file accompanying this file. This file is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
