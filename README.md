@@ -19,16 +19,28 @@ Please Check AWSDevopsEssentials.md
 The labs are structured around the AWS services. 
 Please start your lab from Lab1.1
 
-Lab1 - IAM
-Lab2 - VPC
-Lab3 - Elastic Beanstalk
-Lab4 - Cloudfront
-Lab5 - DynamoDB
-Lab6 - RDS
-Lab7 - S3
-Lab8 - Codepipeline
-Lab9 - Cloudformation
+#Lab1 - IAM
 
+#Lab2 - VPC
+
+#Lab3 - Elastic Beanstalk
+
+#Lab4 - Cloudfront
+
+#Lab5 - DynamoDB
+
+#Lab6 - RDS
+
+#Lab7 - S3
+
+#Lab8 - Codepipeline
+
+#Lab9 - Cloudformation
+
+
+
+
+********
 #  Account Management
 
 [Source](https://aws.amazon.com/answers/account-management/ "Permalink to Account Management – AWS Answers")
